@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int firstMissingPositive(int[] nums) {
         Arrays.sort(nums);
-        int min = 1;
+        int min = 2;
         int idx = 0;
         
         
